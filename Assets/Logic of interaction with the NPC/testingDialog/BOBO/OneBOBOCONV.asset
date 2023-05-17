@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ddd8a6783e0423438a624d1b72f8252, type: 3}
+  m_Name: OneBOBOCONV
+  m_EditorClassIdentifier: 
+  _nodes:
+  - Contens: BOBO
+    MainText: "\u041F\u0435\u0440\u0432\u044B\u0439 \u0434\u0438\u0430\u043B\u043E\u0433
+      \u0441 \u0411\u041E\u0411\u041E"
+    Responce:
+    - Id: end
+      Name: end?
+  - Contens: end
+    MainText: end dialog bobo
+    Responce: []
+  _quest: {fileID: 0}

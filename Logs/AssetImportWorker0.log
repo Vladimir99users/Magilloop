@@ -1,0 +1,385 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.9f1 (ad3870b89536) revision 11352176'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit CoreSingleLanguage' Language: 'ru' Physical Memory: 7976 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Unity\2021.3.9f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Unity/Metrosyan
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51833
+Successfully changed project path to: D:/Unity/Metrosyan
+D:/Unity/Metrosyan
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 365.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.9f1 (ad3870b89536)
+[Subsystems] Discovering subsystems at path D:/Unity/2021.3.9f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Unity/Metrosyan/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce MX230 (ID=0x1d11)
+    Vendor:   NVIDIA
+    VRAM:     1984 MB
+    Driver:   30.0.15.1272
+Initialize mono
+Mono path[0] = 'D:/Unity/2021.3.9f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/2021.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Unity/2021.3.9f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56192
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity/2021.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.008230 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 340.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.638 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1639ms)
+		BeginReloadAssembly (217ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (1170ms)
+			LoadAssemblies (217ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (230ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (782ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (341ms)
+				BeforeProcessingInitializeOnLoad (4ms)
+				ProcessInitializeOnLoadAttributes (310ms)
+				ProcessInitializeOnLoadMethodAttributes (119ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.013277 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity\Metrosyan\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity\Metrosyan\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 443.96 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.188 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4189ms)
+		BeginReloadAssembly (230ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (3726ms)
+			LoadAssemblies (184ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (951ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (217ms)
+			SetupLoadedEditorAssemblies (2268ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (444ms)
+				BeforeProcessingInitializeOnLoad (293ms)
+				ProcessInitializeOnLoadAttributes (1231ms)
+				ProcessInitializeOnLoadMethodAttributes (268ms)
+				AfterProcessingInitializeOnLoad (18ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (22ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.24 seconds
+Refreshing native plugins compatible for Editor in 2.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6711 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 37 unused Assets / (348.2 KB). Loaded Objects now: 7190.
+Memory consumption went from 280.3 MB to 280.0 MB.
+Total: 6.744100 ms (FindLiveObjects: 0.696900 ms CreateObjectMapping: 0.595600 ms MarkObjects: 5.241100 ms  DeleteObjects: 0.209200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 245983.229485 seconds.
+  path: Assets/Logic of interaction with the NPC/NPC/Dialog.asset
+  artifactKey: Guid(2db54500d5d69de4f80c25fabe1e79ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Logic of interaction with the NPC/NPC/Dialog.asset using Guid(2db54500d5d69de4f80c25fabe1e79ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0fe79d27aa4f483518e7283dd350281') in 0.628751 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Logic of interaction with the NPC/NPC/Scripts/CreateNewNPC.cs
+  artifactKey: Guid(e9f113e23fa7e13459314ae6e9ea5079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Logic of interaction with the NPC/NPC/Scripts/CreateNewNPC.cs using Guid(e9f113e23fa7e13459314ae6e9ea5079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3797afc60d84fa2e38f3353e2445bfec') in 0.728778 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Logic of interaction with the NPC/NPC/PetayDialog.asset
+  artifactKey: Guid(0276bcd2bf2901145910d45cc62273ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Logic of interaction with the NPC/NPC/PetayDialog.asset using Guid(0276bcd2bf2901145910d45cc62273ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15026faf1a626bf9af6a60115cd1df85') in 0.065951 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008662 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity\Metrosyan\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity\Metrosyan\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.71 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.699 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3701ms)
+		BeginReloadAssembly (401ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (16ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (108ms)
+		EndReloadAssembly (3055ms)
+			LoadAssemblies (374ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (952ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (132ms)
+			SetupLoadedEditorAssemblies (1347ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (29ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (233ms)
+				ProcessInitializeOnLoadAttributes (800ms)
+				ProcessInitializeOnLoadMethodAttributes (272ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (55ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 12.04 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6485 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (309.9 KB). Loaded Objects now: 7194.
+Memory consumption went from 274.3 MB to 274.0 MB.
+Total: 8.699900 ms (FindLiveObjects: 0.732600 ms CreateObjectMapping: 0.762400 ms MarkObjects: 7.090600 ms  DeleteObjects: 0.112700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 746.463549 seconds.
+  path: Assets/Logic of interaction with the NPC/testingDialog/DialogWarLord.asset
+  artifactKey: Guid(9ef25c58572431540aa05d21621a9d60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Logic of interaction with the NPC/testingDialog/DialogWarLord.asset using Guid(9ef25c58572431540aa05d21621a9d60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8838eb73f849e1ae6fc3d805e342287c') in 0.040879 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 31.858885 seconds.
+  path: Assets/Logic of interaction with the NPC/testingDialog/FirstMainWarLordDialog.asset
+  artifactKey: Guid(4f924d4df65687d4aa358897e9e9efbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Logic of interaction with the NPC/testingDialog/FirstMainWarLordDialog.asset using Guid(4f924d4df65687d4aa358897e9e9efbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fc5ebb7b0f6724006bde610d4428a0f') in 0.010594 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.671263 seconds.
+  path: Assets/Logic of interaction with the NPC/testingDialog/FirstMainWarLordDialog 1.asset
+  artifactKey: Guid(8c8d5d22df0627d41ae42738af87f5ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Logic of interaction with the NPC/testingDialog/FirstMainWarLordDialog 1.asset using Guid(8c8d5d22df0627d41ae42738af87f5ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7b0a56a86b0a994df75e3483c0a3851') in 0.008090 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Logic of interaction with the NPC/testingDialog/DialogWarLord.asset
+  artifactKey: Guid(9ef25c58572431540aa05d21621a9d60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Logic of interaction with the NPC/testingDialog/DialogWarLord.asset using Guid(9ef25c58572431540aa05d21621a9d60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b02445ffca56b218ccf184da55bfec3') in 0.004047 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.850799 seconds.
+  path: Assets/Logic of interaction with the NPC/testingDialog/SecondMainWarLordDialog.asset
+  artifactKey: Guid(8c8d5d22df0627d41ae42738af87f5ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Logic of interaction with the NPC/testingDialog/SecondMainWarLordDialog.asset using Guid(8c8d5d22df0627d41ae42738af87f5ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d75a408f5cf1b3658bc1911ad45a52c') in 0.011816 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 84.905265 seconds.
+  path: Assets/Logic of interaction with the NPC/testingDialog/OneWarLord.asset
+  artifactKey: Guid(bb43bf8baff06f1479036babc3711937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Logic of interaction with the NPC/testingDialog/OneWarLord.asset using Guid(bb43bf8baff06f1479036babc3711937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a3c87edc71ca58bf06f1f551e21277b') in 0.009184 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 63.738953 seconds.
+  path: Assets/Logic of interaction with the NPC/testingDialog/OneWarLord 1.asset
+  artifactKey: Guid(4d7469eb346f39d458219f039a89f355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Logic of interaction with the NPC/testingDialog/OneWarLord 1.asset using Guid(4d7469eb346f39d458219f039a89f355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb4df0d0f8813ecf74fafafc6db1ff0b') in 0.007698 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Logic of interaction with the NPC/testingDialog/DialogWarLord.asset
+  artifactKey: Guid(9ef25c58572431540aa05d21621a9d60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Logic of interaction with the NPC/testingDialog/DialogWarLord.asset using Guid(9ef25c58572431540aa05d21621a9d60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f7af92c2f69b1c8441da10b8c5385f6') in 0.003626 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Logic of interaction with the NPC/testingDialog/FirstMainWarLordDialog.asset
+  artifactKey: Guid(4f924d4df65687d4aa358897e9e9efbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Logic of interaction with the NPC/testingDialog/FirstMainWarLordDialog.asset using Guid(4f924d4df65687d4aa358897e9e9efbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8125197c536689c6d5b016458a587b2') in 0.008974 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Logic of interaction with the NPC/testingDialog/OneWarLord.asset
+  artifactKey: Guid(bb43bf8baff06f1479036babc3711937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Logic of interaction with the NPC/testingDialog/OneWarLord.asset using Guid(bb43bf8baff06f1479036babc3711937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f42261bf67dc220dbf193905855c1ee8') in 0.008551 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.139502 seconds.
+  path: Assets/Logic of interaction with the NPC/testingDialog/TwoWarLord.asset
+  artifactKey: Guid(4d7469eb346f39d458219f039a89f355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Logic of interaction with the NPC/testingDialog/TwoWarLord.asset using Guid(4d7469eb346f39d458219f039a89f355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce1e2e9015c62d0e75bb5809573781b8') in 0.013921 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 52.251087 seconds.
+  path: Assets/Logic of interaction with the NPC/testingDialog/WarLord
+  artifactKey: Guid(9da61b97052bec54ebafebe92ab2161b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Logic of interaction with the NPC/testingDialog/WarLord using Guid(9da61b97052bec54ebafebe92ab2161b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14d59366e205f44d868128724d9be00c') in 0.006401 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.813974 seconds.
+  path: Assets/Logic of interaction with the NPC/testingDialog/BOBO
+  artifactKey: Guid(ef15112069cd0f94fb4a326cd3c666ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Logic of interaction with the NPC/testingDialog/BOBO using Guid(ef15112069cd0f94fb4a326cd3c666ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ed9a397b83320d3b4000c319e430d0a') in 0.014650 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 240.656940 seconds.
+  path: Assets/Logic of interaction with the NPC/testingDialog/BOBO/DIalogBOBO.asset
+  artifactKey: Guid(ccf0c028aa5cfc840a552cd743d7d46e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Logic of interaction with the NPC/testingDialog/BOBO/DIalogBOBO.asset using Guid(ccf0c028aa5cfc840a552cd743d7d46e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '758d89075d9050ab9e16baa51fe166cb') in 0.010195 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 37.710260 seconds.
+  path: Assets/Logic of interaction with the NPC/testingDialog/BOBO/FirstBoBoConversation.asset
+  artifactKey: Guid(5e2959063c740394ca6a28a16d2b0eb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Logic of interaction with the NPC/testingDialog/BOBO/FirstBoBoConversation.asset using Guid(5e2959063c740394ca6a28a16d2b0eb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a937afb1ecf5ed625bd6f4520a22ef7') in 0.009649 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.738766 seconds.
+  path: Assets/Logic of interaction with the NPC/testingDialog/BOBO/DIalogBOBO.asset
+  artifactKey: Guid(ccf0c028aa5cfc840a552cd743d7d46e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Logic of interaction with the NPC/testingDialog/BOBO/DIalogBOBO.asset using Guid(ccf0c028aa5cfc840a552cd743d7d46e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99c98f721ccbe5780ecd6bf13deb5b81') in 0.003193 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Logic of interaction with the NPC/testingDialog/BOBO/FirstBoBoConversation 1.asset
+  artifactKey: Guid(eaf45e2f50bf9d640a05ff339efa9da7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Logic of interaction with the NPC/testingDialog/BOBO/FirstBoBoConversation 1.asset using Guid(eaf45e2f50bf9d640a05ff339efa9da7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '524e810784282ae994341ced6bd49733') in 0.007144 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.339925 seconds.
+  path: Assets/Logic of interaction with the NPC/testingDialog/BOBO/SecondBoBoConversation 1.asset
+  artifactKey: Guid(eaf45e2f50bf9d640a05ff339efa9da7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Logic of interaction with the NPC/testingDialog/BOBO/SecondBoBoConversation 1.asset using Guid(eaf45e2f50bf9d640a05ff339efa9da7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adf5bbec218a27969cae664f8f0c206d') in 0.014992 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.499394 seconds.
+  path: Assets/Logic of interaction with the NPC/testingDialog/BOBO/OneBOBOCONV.asset
+  artifactKey: Guid(1c79429416179884fbc9b7735916c9f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Logic of interaction with the NPC/testingDialog/BOBO/OneBOBOCONV.asset using Guid(1c79429416179884fbc9b7735916c9f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9abe2c07af99f9f069aee3ee2a2e4f5') in 0.015962 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 285.660810 seconds.
+  path: Assets/Logic of interaction with the NPC/testingDialog/BOBO/OneBOBOCONV.asset
+  artifactKey: Guid(1c79429416179884fbc9b7735916c9f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Logic of interaction with the NPC/testingDialog/BOBO/OneBOBOCONV.asset using Guid(1c79429416179884fbc9b7735916c9f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d7502c811fb3350c650bfbb9669af41') in 0.004306 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.026458 seconds.
+  path: Assets/Logic of interaction with the NPC/testingDialog/BOBO/OneBOBOCONV 1.asset
+  artifactKey: Guid(eda3cb10154cbbf43bfeca7334cd1ee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Logic of interaction with the NPC/testingDialog/BOBO/OneBOBOCONV 1.asset using Guid(eda3cb10154cbbf43bfeca7334cd1ee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c246f74540b1892c349005418aa8f676') in 0.018202 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.261344 seconds.
+  path: Assets/Logic of interaction with the NPC/testingDialog/BOBO/OneBOBOCONV 2.asset
+  artifactKey: Guid(53f5ed93ec6606f4d9ec233725085466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Logic of interaction with the NPC/testingDialog/BOBO/OneBOBOCONV 2.asset using Guid(53f5ed93ec6606f4d9ec233725085466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35ce9e076077d39221db84af1ffd2064') in 0.021720 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 72.434912 seconds.
+  path: Assets/Logic of interaction with the NPC/testingDialog/WarLord/TwoWarLord.asset
+  artifactKey: Guid(4d7469eb346f39d458219f039a89f355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Logic of interaction with the NPC/testingDialog/WarLord/TwoWarLord.asset using Guid(4d7469eb346f39d458219f039a89f355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da0468a829328937a04e89d1097d67c1') in 0.005934 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 38.764209 seconds.
+  path: Assets/Logic of interaction with the NPC/testingDialog/WarLord/SecondMainWarLordDialog.asset
+  artifactKey: Guid(8c8d5d22df0627d41ae42738af87f5ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Logic of interaction with the NPC/testingDialog/WarLord/SecondMainWarLordDialog.asset using Guid(8c8d5d22df0627d41ae42738af87f5ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b60fabb4434cc8c01d05150430dc819') in 0.007297 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.327948 seconds.
+  path: Assets/Logic of interaction with the NPC/testingDialog/BOBO/DIalogBOBO.asset
+  artifactKey: Guid(ccf0c028aa5cfc840a552cd743d7d46e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Logic of interaction with the NPC/testingDialog/BOBO/DIalogBOBO.asset using Guid(ccf0c028aa5cfc840a552cd743d7d46e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c81ff59eeb59982b0c1a33b2901400f') in 0.005041 seconds 
